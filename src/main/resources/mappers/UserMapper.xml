@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+ 
+<mapper namespace="com.chen.dao.UserDao">
+    
+    <select id="findUserByName" parameterType="String" resultType="com.chen.entity.User">
+        select
+        	username,
+        	password
+        from
+        	user_info
+        <if test="_parameter != null">
+		    where username = #{username}
+		</if>	
+    </select>
+    
+    <select id="findAllUser" resultType="com.chen.entity.User">
+        select
+        	username,
+        	password
+        from
+        	user_info	
+    </select>
+</mapper> 

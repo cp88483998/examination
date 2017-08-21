@@ -1,0 +1,104 @@
+body{
+	margin:50px auto; 
+	width:80%; 
+	height:auto; 
+}
+.tab_section{
+	margin: 2px;
+	padding: 0px;
+	height: 30px;
+}
+.tab_section td{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 30px;
+	cursor: pointer;
+	list-style: none;
+	border-left: 1px solid #fff;
+	font-size: 15px;
+	float: left;
+	text-align: center;
+}
+/*div */
+.show_section{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 1068.8px;
+	min-height: 1000px;
+	border: 1px solid green;
+}
+.answer_section{
+	position: relative;
+	width: 60%;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+.note_section, .mark_section{
+	position: relative;
+	width: 30%;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	float: right;
+	border-left: 1px dashed;
+}
+.mark_section{
+	display: none;
+}
+.submit_section{
+	position: relative;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px dashed;
+}
+.explain_section{
+	display : none;
+}
+
+/*  */
+.answer_section table{
+	border-bottom:  1px dashed;
+}
+.an_green{
+	color: green;
+}
+.an_blue{
+	color: #03A9F4;
+}
+.content{
+	font-weight: normal;
+	text-align: left;
+}
+.note_table, .mark_table{
+	width: 100%;
+	border: 1px solid #00bd00;
+	border-collapse:collapse;
+}
+.note, .mark{
+	background: #00bd00;
+}
+.submit{
+	margin: 0 auto;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	display: block;
+}
+.blueTab{
+	background: #03A9F4;
+}
+.greenTab{
+	background: #00bd00;
+}
+#errorMsg{
+	color : red;
+	font-weight: bold;
+}
+.mark_info{
+	width:90%;
+	word-wrap:break-word;
+	word-break:break-all;
+}

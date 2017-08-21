@@ -1,0 +1,47 @@
+body{
+	background-image: url('../images/background.jpg');
+	background-position: center;
+	background-size: 3800px;
+}
+.main{
+	background: #ffffff;
+	border: 1px thin black;
+	padding: 20px 30px;
+	margin: 100px auto;
+	width: 300px;
+}
+h3{
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+/*去除黑点*/
+li {
+    list-style-type:none;
+}
+input[type=text], [type=password]{
+	width: 230px;
+    height: 20px;
+    border-radius:5px;
+    border: 1px solid #999999;
+    box-shadow: 1px 1px 3px #cccccc;
+	padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#login, #vlogin{
+	color: white;
+	width: 250px;
+	height: 35px;
+	border: solid 1px;
+	background:#17a3de;
+	cursor: pointer;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#errorMsg{
+	color:red;
+	font-weight: bold;
+}
+
+

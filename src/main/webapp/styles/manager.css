@@ -1,0 +1,69 @@
+/* 全局样式 */
+body, p, div, ul, ol, li, dl, dd, dt, h1, h2, h3, h4, h5, h6, form, input, select, label, table, tr, td, th, thead, tbody, tfoot
+{
+    margin: 0px auto;
+    padding: 0px;
+    border: 0;
+}
+body{
+	background-color:#c0c0c0;
+}
+#header{
+	background: #0ea8d9;
+}
+.out{
+	float:right;
+	display: inline;
+	margin:20px;
+}
+#navi
+{
+    width: 100%;
+    height: 91px;
+    overflow: hidden;
+    background: #0ea8d9;
+}
+#menu
+{
+    overflow: hidden;
+    margin-top: 3px;
+}
+#navi li
+{
+    float: left;
+    padding: 0 14px;
+}
+#navi a
+{
+    display: block;
+    width: 68px;
+    height: 77px;
+    overflow: hidden;
+    float: left;
+}
+#main{
+	background-color: #abcad6;
+	padding: 20px 20px;
+	text-align: left;
+	width: 800px;
+}
+table, td, th{
+	border: 1px solid black;
+	border-collapse:collapse;
+	height: 30px;
+}
+table{
+	width: 800px;
+}
+th{
+	background: #ffb38e;
+}
+.add{
+	float: right;
+}
+.tableBtn{
+	background-color: transparent;
+}
+#footer, #th, #p{
+	text-align: center;
+}

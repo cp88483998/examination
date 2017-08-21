@@ -1,0 +1,19 @@
+body{
+	background-image: url('../images/background.jpg');
+	background-size :3000px;
+}
+div{
+	padding: 20px 30px;
+	margin: 20px auto;
+	width: 600px;
+}
+.img{
+	height: 300px;
+	text-align:center;
+}
+h2{
+	font-family: "楷体";
+}
+#seconds{
+	color: red;
+}
